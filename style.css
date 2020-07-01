@@ -1,0 +1,25 @@
+body
+{
+    background-color:black;
+}
+#start
+{
+    
+    color:white;
+    background-color:violet;
+    margin-top:45%;
+    margin-left: 50%;
+    border: none;
+    cursor: pointer;
+    height:40px;
+    width:80px;
+    border-radius: 5px;;
+
+    
+}
+#first
+{
+    color:white;
+    text-decoration: none;
+}
+

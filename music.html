@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <p>Lets Cut this Cake</p>
+
+    <div class="box">
+      <div class="plate"></div>
+      <div class="layer">
+        <div class="fill"></div>
+      </div>
+      <div class="layer">
+        <div class="fill"></div>
+      </div>
+      <div class="icing">
+        <div class="icing-sm"></div>
+        <div class="icing-sm"></div>
+        <div class="icing-sm"></div>
+        <div class="icing-sm"></div>
+        <div class="icing-sm"></div>
+        <div class="icing-sm"></div>
+      </div>
+      <div class="candles">
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+        <div class="candle">
+          <div class="flame"></div>
+        </div>
+      </div>
+      
+      <button id="play" onclick="playVid()" type="button">Play Music</button>
+    </div>
+    <button id="mess"><a id="second" href="message.html">Message For You</a></button>
+    
+<audio id="myVideo" width="320" height="176">
+    <source src="birthday.mp3" type="audio/mp3">
+    </audio>
+  <script> 
+      var vid = document.getElementById("myVideo"); 
+      function playVid() { 
+        vid.play(); 
+      } 
+      function pauseVid() { 
+        vid.pause(); 
+      } 
+      </script> 
+
+
+</body>
+</html>
